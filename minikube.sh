@@ -22,9 +22,4 @@ chmod +x kubectl
 sudo mv kubectl /usr/local/bin/
 kubectl version -o yaml
 
-
-echo "Start the minikube"
-minikube start --driver=docker
-minikube status
-
-
+minikube start
